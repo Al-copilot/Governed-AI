@@ -1,16 +1,17 @@
 # Governed AI
 
-> Governed AI is a governance model in which AI produces the result — reasoning and
-> orchestrating — but a deterministic, human-owned governance layer confirms it before
-> it is final.
+> Governed AI is a governance **layer** in which AI produces the result — reasoning and
+> orchestrating — but a deterministic, human-owned layer confirms it before it is final.
 
 **Governed AI, not autonomous AI** — full-capability AI you can put in front of an auditor.
 
+**Not a new AI model — a governance layer over any model.**
+
 *By Alireza Razavi*
 
-AI adoption is outrunning trust. Governed AI is a model in which **AI produces the
+AI adoption is outrunning trust. Governed AI is a governance layer in which **AI produces the
 result** — reasoning, orchestrating, even building its own controls — but **never as the
-final, authoritative output** until a deterministic, human-owned governance layer confirms
+final, authoritative output** until a deterministic, human-owned layer confirms
 it. The AI does the work; the governance makes that work **reproducible, auditable, and
 accountable** — evidence, not blind trust.
 
