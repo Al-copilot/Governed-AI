@@ -2,7 +2,9 @@
 
 ## The problem
 
-AI adoption is outrunning trust. Enterprises are deploying AI at scale with no consistent way to
+Recent AI incidents have exposed a common problem: organizations are deploying **increasingly capable
+AI systems without an equivalent governance framework.** AI adoption is outrunning trust. Enterprises
+are deploying AI at scale with no consistent way to
 **prove** it behaves — reliably, transparently, within policy and regulation. The result is
 unpredictable output, accountability gaps, compliance exposure — and the deals that never close
 because no one can answer *"can you prove what it did?"*
@@ -17,6 +19,15 @@ because no one can answer *"can you prove what it did?"*
 > makes that work **reproducible, auditable, and accountable** — so it's *AI's* result, delivered as
 > **evidence, not blind trust.**
 
+**The principle:**
+
+> **AI may assist, reason, recommend, and orchestrate — but authority remains governed.**
+
+Governance here is not a policy document or an after‑the‑fact audit exercise — it is a **layer that
+runs over the AI itself.** **The objective is not to limit AI capability;** it is to make increasingly
+capable AI deployable where **trust, accountability, compliance, and human responsibility are
+mandatory.**
+
 ### Not autonomous AI — full‑capability AI you can put in front of an auditor.
 
 ---
@@ -28,6 +39,22 @@ Three layers, always:
 1. **The AI does the work** — it reasons, plans, orchestrates, and produces the output (and even the controls that will check it), at full capability.
 2. **Deterministic governance decides** — every output passes through checks anyone can re‑run to the *same* result; nothing is final until the governance confirms it.
 3. **A human owns it** — a named person reviews and owns the governance itself, and signs off on anything irreversible. That's what makes it accountable, not circular.
+
+### Governing what the AI *does* — Control and Audit
+
+Most AI governance stops at what a model *says*. Governed AI also governs what it **does** — every
+consequential action, from changing a system to moving money — through two pillars, deliberately
+kept apart because they fail in different ways:
+
+| | **Control** | **Audit** |
+|---|---|---|
+| **The question** | *May this act happen?* | *What actually happened — and can we prove it?* |
+| **When** | **before** the act — preventive | **after** the act — detective, independent |
+| **What it guarantees** | risky actions are refused unless policy allows them; the irreversible ones wait for a named human; a retry can never silently do the same thing twice | an independent, tamper‑evident record of every action, checked against reality — so anything that went *around* the controls is found, not hidden |
+
+*Why both:* no preventive control is perfect, and an audit that only reads the controls' own
+paperwork can never see what bypassed them. **Control stops what it can; Audit catches what slipped
+past** — and both state honestly where their guarantees end.
 
 *That's the shape of the model. The specific controls — and how they're built — are the part that stays under the hood.*
 
@@ -85,15 +112,18 @@ That is a message that earns attention, earns trust, and closes the deals ungove
 
 ---
 
-## What your customers get
+## What the governance layer provides
 
 | Advantage | What it means |
 |---|---|
-| **Reproducible** | Every result can be re‑run to the *same* answer — evidence, not assertions. |
-| **Auditable** | What's required and what was done stay separate and visible — segregation of duties, as audit expects. |
-| **Accountable** | A named human owns every irreversible call — the AI never acts unchecked. |
-| **Traceable** | A clear line from requirement → verification → outcome, with a tamper‑evident trail. |
-| **It actually bites** | Controls visibly stop a bad change — the control working *is* the proof. |
+| **Accountable** | Human accountability for consequential decisions and irreversible actions — the AI never acts unchecked. |
+| **Reproducible** | Where an authoritative outcome is required, it can be re‑run to the *same* answer — evidence, not assertions. |
+| **Separated** | AI reasoning is kept apart from authoritative execution — the AI proposes, governed execution decides. |
+| **Enforced** | Controls that refuse the act or fail the build — not advisory guidance. |
+| **Traceable & auditable** | A clear line from requirement → verification → outcome, with a tamper‑evident trail; what's required and what was done stay separate — segregation of duties, as regulated environments expect. |
+| **It intervenes** | Governance actively steps in when a rule is violated — the control visibly stopping a bad change *is* the proof. |
+| **Controlled** | Risky actions are gated *before* they happen — deny by default, never done twice by a blind retry. |
+| **Provable** | An independent record of every action, reconciled against reality — what bypassed the controls is found, not hidden. |
 | **Honest by design** | It states where its guarantees end — credibility over hype. |
 
 ---
@@ -107,25 +137,25 @@ universal: **not banks only.** Anywhere a wrong, unexplained, unowned decision c
 
 ---
 
-## What it is *not*
-
-- Not a cage that dumbs the model down — it keeps full capability.
-- Not a competing model or a framework to rip and replace.
-- Not *"autonomy with a disclaimer"* — the human accountability is real and load‑bearing.
-
----
-
 ## In one line
 
 > **Governed AI turns *"trust the AI"* into *"check the evidence"* — and lets you tell your customers
 > you ship AI that is *governed, not autonomous.***
+
+The next stage of AI adoption won't be defined by model capability alone — but by how effectively
+organizations can **govern, control, and trust AI‑driven outcomes.**
 
 ---
 
 ## Proven, not promised
 
 Not a concept paper — Governed AI runs today as working reference implementations that demonstrate
-the model end‑to‑end, including a control stopping a bad change on purpose.
+the model end‑to‑end, including a control stopping a bad change on purpose — and a gate that refuses
+a risky action, then an audit that catches one that went around it.
+
+Governed AI was developed by **Alireza Razavi**, drawing on more than 15 years leading quality
+engineering, compliance, and enterprise transformation across banking, insurance, payments, and
+other regulated environments.
 
 ---
 
